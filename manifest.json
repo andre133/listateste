@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Extrair Paciente para Excel",
+  "name": "Extrator de Pacientes",
   "version": "1.0",
-  "description": "Extrai os dados do paciente da página e gera uma planilha Excel.",
+  "description": "Extrai dados de pacientes e gera planilha Excel.",
   "permissions": ["scripting", "activeTab"],
   "host_permissions": ["<all_urls>"],
   "action": {
@@ -10,9 +10,6 @@
     "default_icon": {
       "16": "icon.png"
     }
-  },
-  "background": {
-    "service_worker": "background.js"
   },
   "web_accessible_resources": [
     {
